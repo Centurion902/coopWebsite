@@ -4,7 +4,7 @@ html{
 
 *{margin:0; padding:0; font-family:arial;}
 
-section{min-width:100vh; min-height:100vh; width:auto; height:auto; float:left;}
+section{min-height:100vh; width:auto; height:auto; float:left;}
 
 body {
   margin: 0;
