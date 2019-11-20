@@ -2,10 +2,27 @@ html{
 	scroll-behavior: smooth
 }
 
+.avatar {
+  position: relative;
+  top: 10vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+  border:2px solid black;
+  border-radius: 50%;
+}
+
+/*
 *{margin:0; padding:0; font-family:arial;}
+*/
+section{min-width:100vw; min-height:100vh; width:100%; height:100%;}
 
-section{min-width:100vh; min-height:100vh; width:100%; height:100%; float:left;}
+.navstyle{min-width:100vw; width:auto; position:fixed !important;}
 
+.navbar-brand{padding:122}
+/*
 body {
   margin: 0;
   display: grid;
@@ -14,7 +31,7 @@ body {
   
   /* this breaks position sticky in Firefox */
   /* overflow-x: hidden; */
-}
+/*}*/
 
 #pageA{background:#FFE0E0;}
 #pageB{background:#FFC7C7;}
@@ -22,31 +39,4 @@ body {
 #pageD{background:#FF6E6E;}
 #pageE{background:#FF5252;}
 
-nav {
-  white-space: nowrap;
-  background: #2B2B2B;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-/* Only stick if you can fit */
-@media (min-height: 300px) {
-  nav ul {
-    position: sticky;
-    top: 0;
-  }
-}
-nav ul li a {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-decoration: none;
-}
-nav ul li a.current {
-  background: black;
-}
-
-
-h1{color:#fff; text-align:center; margin-top:150px;}
+h1{color:#fff; text-align:center; padding-top:10vh;}
