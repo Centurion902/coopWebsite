@@ -20,11 +20,11 @@ body {
 #pageB{background:#FFC7C7;}
 #pageC{background:#FF9E9E;}
 #pageD{background:#FF6E6E;}
-#pageE{background:#FF3D3D;}
+#pageE{background:#FF5252;}
 
 nav {
   white-space: nowrap;
-  background: #37474F;
+  background: #000000;
 }
 nav ul {
   list-style: none;
