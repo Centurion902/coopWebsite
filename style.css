@@ -76,7 +76,7 @@ h5{
 
 .my-footer{
   background:rgb(37, 37, 37);
-  border:2px solid black;;
+  border:2px solid rgb(37, 37, 37);
 }
 
 .my-footer-head{
@@ -89,5 +89,5 @@ h5{
 
 
 .card-black{
-  border: 4px black
+  border: 4px rgb(37, 37, 37)
 }
