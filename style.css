@@ -1,5 +1,6 @@
 html{
-	scroll-behavior: smooth
+  scroll-behavior: smooth;
+  background:rgb(37, 37, 37);
 }
 
 .myIcon{
@@ -32,7 +33,7 @@ section{min-width:100vw; min-height:100vh; width:100%; height:100%;}
   width:auto; 
   position:fixed !important; 
   z-index:10; 
-  background:rgb(37, 37, 37);
+  background:rgb(37, 37, 37) !important;
 }
 
 .my-nav-item:hover{
@@ -64,11 +65,11 @@ body {
   /* overflow-x: hidden; */
 /*}*/
 
-#pageA{background:rgb(200, 200, 255);}
-#pageB{background:rgb(180, 180, 255);}
-#pageC{background:rgb(160, 160, 255);}
-#pageD{background:rgb(140, 140, 255);}
-#pageE{background:rgb(120, 120, 248);}
+#pageA{background:rgb(200, 230, 255);}
+#pageB{background:rgb(180, 210, 255);}
+#pageC{background:rgb(160, 190, 255);}
+#pageD{background:rgb(140, 170, 255);}
+#pageE{background:rgb(120, 150, 248);}
 
 h1{
   color:#fff; 
