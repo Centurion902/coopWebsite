@@ -4,15 +4,11 @@ html{
 }
 
 .myIcon{
-  width:3vw;
-  height:3vw;
-  margin-left: 1%;
   padding: 5%;
 }
 
 .myIconDoc{
-  padding: 0.1% !important;
-  margin-left: 1% !important;
+  margin-left:-15%;
 }
 
 .avatar {
@@ -93,6 +89,7 @@ h5{
 .my-card{
   color:rgb(93, 190, 214);
 }
+
 
 .card-black{
   border: 4px black
