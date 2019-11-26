@@ -21,6 +21,18 @@ html{
 }
 section{min-width:100vw; min-height:100vh; width:100%; height:100%;}
 
+.horizontal{
+  float:left !important;
+  margin: 0%;
+}
+
+.iconNav{
+  list-style-type: none;
+  margin: 1%;
+  padding: 0;
+  overflow: hidden;
+}
+
 .navstyle{
   min-width:100vw; 
   width:auto; 
