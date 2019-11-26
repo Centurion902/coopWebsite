@@ -62,7 +62,11 @@ body {
 #pageB{background:rgb(180, 210, 255);}
 #pageC{background:rgb(160, 190, 255);}
 #pageD{background:rgb(140, 170, 255);}
-#pageE{background:rgb(120, 150, 248);}
+#pageE{background:rgb(120, 150, 255);}
+#pageF{background:rgb(100, 130, 255);}
+#pageG{background:rgb(80, 110, 255);}
+
+
 
 h1{
   color:#fff; 
