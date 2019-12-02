@@ -7,7 +7,6 @@ html{
   padding: 2%;
 }
 
-
 .avatar {
   display: block;
   margin-left: auto;
@@ -16,7 +15,8 @@ html{
   border:2px solid black;
   border-radius: 50%;
 }
-section{min-width:100vw; min-height:100vh; width:100%; height:100%;}
+
+section{min-width:100vw; min-height:100vh; width:100%; height:100%; }
 
 .horizontal{
   position: relative;
@@ -27,12 +27,6 @@ section{min-width:100vw; min-height:100vh; width:100%; height:100%;}
 .half{
   width: 46%;
   margin: 2%;
-}
-
-.navbar-avoidance{
-  top:15vh;
-  position: relative;
-  width:100vw;
 }
 
 .iconNav{
@@ -68,16 +62,35 @@ section{min-width:100vw; min-height:100vh; width:100%; height:100%;}
 }
 
 .navbar-brand{padding:122}
-/*
-body {
-  margin: 0;
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  font-family: system-ui, sans-serif;
-  
-  /* this breaks position sticky in Firefox */
-  /* overflow-x: hidden; */
-/*}*/
+
+.navbar-avoidance{
+  text-align: center;
+  top:15vh;
+  position: relative;
+  width:100vw;
+  float:center;
+}
+
+.cardSection{
+  display:inline-block;
+  margin:1%;
+  width:400px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.cardSection:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardImage{
+  width:100%;
+}
+
+.cardText{
+  width:100%;
+  padding:2%;
+}
 
 #pageA{background:rgb(200, 230, 255);}
 #pageB{background:rgb(180, 210, 255);}
