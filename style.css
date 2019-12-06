@@ -3,6 +3,11 @@ html{
   background:rgb(37, 37, 37);
 }
 
+.sections{
+  width:100%; 
+  height:100%; 
+}
+
 .myIcon{
   padding: 2%;
 }
@@ -16,17 +21,18 @@ html{
   border-radius: 50%;
 }
 
-section{min-width:100vw; min-height:100vh; width:100%; height:100%; }
+section{
+  min-height:100vh; 
+}
 
 .horizontal{
   position: relative;
   float:left !important;
-  margin: 0%;
 }
 
 .half{
-  width: 46%;
-  margin: 2%;
+  width: 50%;
+  height: 100%;
 }
 
 .iconNav{
@@ -67,8 +73,7 @@ section{min-width:100vw; min-height:100vh; width:100%; height:100%; }
   text-align: center;
   top:15vh;
   position: relative;
-  width:100vw;
-  float:center;
+  width:100%;
 }
 
 .cardSection{
@@ -86,6 +91,7 @@ section{min-width:100vw; min-height:100vh; width:100%; height:100%; }
 .cardImage{
   width:100%;
   height: 275px;
+  background-image: radial-gradient(rgb(255, 0, 0), rgb(0,0,0));
 }
 
 .cardText{
@@ -103,22 +109,18 @@ section{min-width:100vw; min-height:100vh; width:100%; height:100%; }
 #pageG{background:rgb(80, 110, 240);}
 
 p{
-  color:rgb(93, 190, 214);
+  color:rgb(0, 0, 0);
   width:100%;
   float: center;
 }
 
-.horizontalMargins{
-  margin-left:20%; margin-right:20%
-}
-
 h1{
-  color:rgb(93, 190, 214);
+  color:rgb(0, 0, 0);
   text-align:center; 
 }
 
 h4{
-  color:rgb(93, 190, 214);
+  color:rgb(0, 0, 0);
 }
 
 h5{
