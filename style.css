@@ -3,6 +3,14 @@ html{
   background:rgb(37, 37, 37);
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  -ms-overflow-style: none;
+}
+
 .sections{
   width:100%; 
   height:100%; 
@@ -17,8 +25,13 @@ html{
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  border:2px solid black;
   border-radius: 50%;
+  transition: 0.3s;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.4);
+}
+
+.avatar:hover{
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.4);
 }
 
 section{
@@ -52,7 +65,11 @@ section{
 
 .my-nav-item:hover{
   background:rgb(177, 226, 255);
-  border-radius: 10%;
+  border-radius: 5%;
+}
+
+.my-nav-item{
+  margin:2px;
 }
 
 .nav-link{
@@ -60,11 +77,37 @@ section{
 }
 
 .nav-links:hover{
-  color:#FFFFFF;
+  color:#0645AD;
+}
+
+.dropdown-menu{
+  background: rgb(37, 37, 37);
+}
+
+.dropdown-toggle.show{
+  background-color:rgb(93, 190, 214);
+}
+
+.dropdown-item{
+  width:95%;
+  color: rgb(93, 190, 214);
+  margin: 4px;
+  margin-bottom: 2px;
+}
+
+.dropdown-item:hover{
+  background: rgb(177, 226, 255);
+  color: #0645AD;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color:rgb(93, 190, 214);
+  ;
 }
 
 .active{
-  background:rgb(62, 166, 185)!important;
+  background:rgb(93, 190, 214) !important;
 }
 
 .navbar-brand{padding:122}
@@ -80,12 +123,14 @@ section{
   display:inline-block;
   margin:1%;
   width:400px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   transition: 0.3s;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .cardSection:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 .cardImage{
@@ -95,6 +140,7 @@ section{
 }
 
 .cardText{
+  background:rgb(93, 190, 214) !important;
   width:100%;
   padding:2%;
   text-align: center;
@@ -109,19 +155,33 @@ section{
 #pageG{background:rgb(80, 110, 240);}
 
 p{
-  color:rgb(0, 0, 0);
+  color:rgb(93, 190, 214);
   width:100%;
   float: center;
 }
 
+p.cardDescription{
+  color: white;
+}
+
+p.introText{
+  padding-left:10%;
+  padding-right:10%;
+}
+
 h1{
-  color:rgb(0, 0, 0);
+  color:rgb(93, 190, 214);
   text-align:center; 
 }
 
 h4{
-  color:rgb(0, 0, 0);
+  color:rgb(93, 190, 214);
 }
+
+h4.cardTitle{
+  color: white;
+}
+
 
 h5{
   color:rgb(93, 190, 214);
