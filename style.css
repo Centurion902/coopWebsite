@@ -141,6 +141,7 @@ section{
 
 .cardText{
   background:rgb(93, 190, 214) !important;
+  min-height: 170px;
   width:100%;
   padding:2%;
   text-align: center;
@@ -174,6 +175,10 @@ h1{
   text-align:center; 
 }
 
+h1.brightText{
+  color:white;
+}
+
 h4{
   color:rgb(93, 190, 214);
 }
@@ -181,7 +186,6 @@ h4{
 h4.cardTitle{
   color: white;
 }
-
 
 h5{
   color:rgb(93, 190, 214);
