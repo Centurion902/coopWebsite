@@ -119,6 +119,20 @@ section{
   width:100%;
 }
 
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
 .cardSection{
   display:inline-block;
   margin:1%;
@@ -140,6 +154,8 @@ section{
 }
 
 .cardText{
+  white-space: normal;
+
   background:rgb(93, 190, 214) !important;
   min-height: 210px;
   width:100%;
