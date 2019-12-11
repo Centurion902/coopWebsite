@@ -120,6 +120,8 @@ section{
 }
 
 .scrolling-wrapper {
+  padding-left: 10px;
+  padding-right:10px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -135,7 +137,9 @@ section{
 
 .cardSection{
   display:inline-block;
-  margin:1%;
+  margin-top:2%;
+  margin-left:10px;
+  margin-right:10px;
   width:300px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   transition: 0.3s;
@@ -155,7 +159,6 @@ section{
 
 .cardText{
   white-space: normal;
-
   background:rgb(93, 190, 214) !important;
   min-height: 210px;
   width:100%;
