@@ -192,13 +192,13 @@ p.introText{
   padding-right:10%;
 }
 
-h1{
+.center{
   color:rgb(93, 190, 214);
   text-align:center; 
 }
 
 .brightText{
-  color:white;
+  color:white !important;
 }
 
 h4{
