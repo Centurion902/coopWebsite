@@ -123,6 +123,7 @@ section{
 .scrolling-wrapper {
   padding-left: 10px;
   padding-right:10px;
+  padding-bottom: 10px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
