@@ -114,7 +114,6 @@ section{
 .navbar-brand{padding:122}
 
 .navbar-avoidance{
-  overflow: hidden;
   text-align: center;
   top:15vh;
   position: relative;
@@ -159,7 +158,6 @@ section{
 }
 
 .cardText{
-  overflow: hidden;
   white-space: normal;
   background:rgb(93, 190, 214) !important;
   min-height: 210px;
