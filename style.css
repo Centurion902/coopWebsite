@@ -35,7 +35,9 @@ body{
 }
 
 section{
-  min-height:100vh; 
+  min-height:100vh;
+  width:100vw; 
+  height:100vh; 
 }
 
 .horizontal{
@@ -103,7 +105,6 @@ section{
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
   background-color:rgb(93, 190, 214);
-  ;
 }
 
 .active{
