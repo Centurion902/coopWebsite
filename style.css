@@ -141,7 +141,7 @@ section{
   margin-left:10px;
   margin-right:10px;
   width:300px;
-  min-height: 415px;
+  min-height: 405px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   transition: 0.3s;
   border-radius: 10%;
@@ -161,7 +161,8 @@ section{
 .cardText{
   white-space: normal;
   background:rgb(93, 190, 214) !important;
-  min-height: 210px;
+  min-height: 200px;
+  max-height: 200px;
   width:100%;
   padding:1.5%;
   text-align: center;
