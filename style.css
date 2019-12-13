@@ -173,7 +173,8 @@ section{
   margin-left:10%;
   margin-right:10%;
   padding-bottom: 0px;
-  min-width: 1300px;
+  min-width: 1600px;
+  width :1600px;
   height:450px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   transition: 0.3s;
