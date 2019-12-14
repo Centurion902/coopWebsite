@@ -169,9 +169,11 @@ section{
 }
 
 .wideCard{
+  display:inline-block;
+
   margin-top:5px;
-  margin-left:10%;
-  margin-right:10%;
+  margin-left: 10px;
+  margin-right: 20px;
   padding-bottom: 0px;
   min-width: 1600px;
   width :1600px;
