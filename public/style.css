@@ -20,6 +20,10 @@ body{
   padding: 2%;
 }
 
+.list{
+  margin-left: auto;
+}
+
 .avatar {
   display: block;
   margin-left: auto;
@@ -72,6 +76,7 @@ section{
 
 .my-nav-item{
   margin:2px;
+  float: left;
 }
 
 .nav-link{
