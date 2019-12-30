@@ -7,7 +7,7 @@ const publicDirectoryPath = path.join(__dirname, '../public');
 app.use(express.static(publicDirectoryPath));
 
 app.get('/architech', (req, res) => {
-    res.send('Hello architech')
+    res.send('Hello architech.')
 });
 
 app.listen(PORT, () => {
