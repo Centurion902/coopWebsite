@@ -201,7 +201,7 @@ section{
   min-height:100%;
   height:450px;
   white-space: normal;
-  background:rgb(106, 0, 245);
+  background:#5DBED6;
   padding:1.5%;
   float:left;
   text-align: left;
@@ -222,15 +222,12 @@ section{
   box-sizing: border-box;
 }
 
-
-
-#pageA{background:rgb(200, 230, 255);}
-#pageB{background:rgb(180, 210, 255);}
-#pageC{background:rgb(160, 190, 255);}
-#pageD{background:rgb(140, 170, 255);}
-#pageE{background:rgb(120, 150, 255);}
-#pageF{background:rgb(100, 130, 255);}
-#pageG{background:rgb(80, 110, 230);}
+#pageA{background:#CEEBF3;}
+#pageB{background:#B6E2ED;}
+#pageC{background:#91D3E3;}
+#pageD{background:#5DBED6}
+#pageE{background:#31A6C4;}
+#pageF{background:#37AFCD;}
 
 p{
   color:rgb(93, 190, 214);
