@@ -81,6 +81,7 @@ section{
 
 .nav-link{
   color: rgb(93, 190, 214);
+  font-size: 18px;
 }
 
 .nav-links:hover{
@@ -146,9 +147,9 @@ section{
   margin-left: 10px;
   margin-right: 10px;
   padding-bottom: 0px;
-  width: 320px;
+  width: 360px;
   min-width: 300px;
-  min-height: 425px;
+  min-height: 450px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   transition: 0.3s;
   border-radius: 25px;
@@ -169,9 +170,10 @@ section{
   white-space: normal;
   background: rgb(93, 190, 214) !important;
   min-height: 220px;
-  max-height: 220px;
+  height: 280px;
+  max-height: 300px;
   width: 100%;
-  padding: 1.5%;
+  padding: 5.5%;
   text-align: center;
 }
 
@@ -237,11 +239,14 @@ p{
 
 p.cardDescription{
   color: white;
+  text-align: left;
+  font-size: 20px;
 }
 
 p.introText{
   padding-left:10%;
   padding-right:10%;
+  font-size: 24px;
 }
 
 .center{
@@ -253,7 +258,7 @@ p.introText{
   color:white !important;
 }
 
-h4{
+h2{
   color:rgb(93, 190, 214);
 }
 
@@ -277,6 +282,10 @@ h5{
   background: black;
 }
 
+.bold {
+  font-weight: bold !important;
+}
+
 .my-card{
   color:rgb(93, 190, 214);
 }
@@ -291,10 +300,12 @@ h5{
   width:90%;
   max-width:1200px;
   padding:30px;
+  margin-bottom: 50px;
 }
 
 .sectionText{
   text-align: left;
+  font-size: 24px;
 }
 
 .module {
